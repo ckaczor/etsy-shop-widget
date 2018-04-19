@@ -1,0 +1,44 @@
+{
+	"name": "etsy-shop-widget",
+	"description": "A Vue.js Webpack templage for a WordPress plugin",
+	"version": "1.0.0",
+	"author": "Chris Kaczor <ckaczor@vertical.com>",
+	"private": true,
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+		"watch": "npm-watch"
+	},
+	"watch": {
+		"build": {
+			"patterns": [
+				"src",
+				"test"
+			],
+			"extensions": "ts,js,jsx,scss,vue"
+		}
+	},
+	"dependencies": {
+		"axios": "^0.17.1",
+		"vue": "^2.2.6"
+	},
+	"devDependencies": {
+		"babel-core": "^6.0.0",
+		"babel-loader": "^7.1.2",
+		"babel-preset-env": "^1.6.1",
+		"cross-env": "^5.1.3",
+		"css-loader": "^0.28.9",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"file-loader": "^1.1.6",
+		"node-sass": "^4.5.0",
+		"npm-watch": "^0.3.0",
+		"optimize-css-assets-webpack-plugin": "^3.2.0",
+		"sass-loader": "^6.0.6",
+		"ts-loader": "^3.4.0",
+		"typescript": "^2.7.1",
+		"vue-loader": "^14.0.3",
+		"vue-property-decorator": "^6.0.0",
+		"vue-template-compiler": "^2.2.1",
+		"webpack": "^3.10.0",
+		"webpack-dev-server": "^2.2.0"
+	}
+}

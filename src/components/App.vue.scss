@@ -1,0 +1,19 @@
+.esw-listing-container {
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+.esw-listing-item {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.esw-listing-item-title {
+    font-size: 90%;
+    padding: 0 5px;
+}
+
+.esw-listing-item-price {
+    font-size: 75%;
+    font-weight: 600;
+}

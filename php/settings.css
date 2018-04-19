@@ -1,0 +1,22 @@
+#esw-etsy-api-key {
+    width: 300px;
+}
+
+#esw-etsy-shop-name {
+    width: 300px;
+}
+
+#esw-cache-time {
+    margin-right: 5px;
+    width: 50px;
+}
+
+#esw-cache-clear-now {
+    margin-left: 20px;
+}
+
+#esw-cache-clear-now-done {
+    font-size: 24pt;
+    color: darkgreen;
+    visibility: hidden;
+}
